@@ -1,4 +1,4 @@
-# tabfleet-com
+# Tabfleet
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tabfleet-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tabfleet.com/
+Tabfleet provides cloud browser infrastructure for AI agents, enabling developers to launch, navigate, and inspect real browsers in the cloud via MCP, REST API, or Chrome DevTools Protocol. Operated by Dalton Solutions, LLC in Burleson, Texas, Tabfleet offers temporary browser sessions, live viewing, and API-driven automation, with a free trial of 30 minutes and paid prepaid minutes for extended usage.
+
+**Areas:** Cloud · Browser · AI · Infrastructure · MCP
+
+## Tabfleet on APIs.io
+
+Everything profiled for Tabfleet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tabfleet-com/](https://apis.io/providers/tabfleet-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Tabfleet Health API](https://apis.io/apis/tabfleet-com/tabfleet-com-health-api/) — The Health API from Tabfleet, for health.
+- [Tabfleet Sessions API](https://apis.io/apis/tabfleet-com/tabfleet-com-sessions-api/) — The Sessions API from Tabfleet, for sessions.
+- [Tabfleet Usage API](https://apis.io/apis/tabfleet-com/tabfleet-com-usage-api/) — The Usage API from Tabfleet, for usage.
+- [Tabfleet Viewer Settings API](https://apis.io/apis/tabfleet-com/tabfleet-com-viewer-settings-api/) — The Viewer Settings API from Tabfleet, for viewer settings.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tabfleet Agentic Access](https://apis.io/agentic-access/tabfleet-com/tabfleet-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [Budget](https://apis.io/schemas/tabfleet-com/tabfleet-com-budget/)
+- [LiveView](https://apis.io/schemas/tabfleet-com/tabfleet-com-live-view/)
+- [Session](https://apis.io/schemas/tabfleet-com/tabfleet-com-session/)
+- [SessionConnection](https://apis.io/schemas/tabfleet-com/tabfleet-com-session-connection/)
+- [ViewerPolicy](https://apis.io/schemas/tabfleet-com/tabfleet-com-viewer-policy/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tabfleet Com Context](https://apis.io/jsonld/tabfleet-com/tabfleet-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tabfleet API Rules](https://apis.io/rules/tabfleet-com/tabfleet-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tabfleet Authentication](https://apis.io/security/tabfleet-com/tabfleet-com-authentication/)
+- [Tabfleet Domain Security](https://apis.io/security/tabfleet-com/tabfleet-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tabfleet Plans Pricing](https://apis.io/plans/tabfleet-com/tabfleet-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Tabfleet Rate Limits](https://apis.io/rate-limits/tabfleet-com/tabfleet-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tabfleet.com/)
+- [Documentation](https://tabfleet.com/docs)
+- [Getting started](https://tabfleet.com/docs/quickstart)
+- [API reference](https://tabfleet.com/docs/api)
+- [Pricing](https://tabfleet.com/pricing)
+- [Terms of service](https://tabfleet.com/terms)
+- [Privacy policy](https://tabfleet.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.9** — strong · rubric 0.29.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 68.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.3 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 40.9 |
+
+**Agent readiness 65.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | signal |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | yes |
+| Markdown Negotiation | yes |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tabfleet-com/](https://apis.io/providers/tabfleet-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tabfleet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tabfleet-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
