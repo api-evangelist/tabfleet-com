@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tabfleet provides cloud browser infrastructure for AI agents, enabling developers to launch, navigate, and inspect real browsers in the cloud via MCP, REST API, or Chrome DevTools Protocol. Operated by Dalton Solutions, LLC in Burleson, Texas, Tabfleet offers temporary browser sessions, live viewing, and API-driven automation, with a free trial of 30 minutes and paid prepaid minutes for extended usage.
+Tabfleet provides cloud browser infrastructure for AI agents, enabling developers to launch, navigate, and inspect real browsers in the cloud via MCP, REST API, or Chrome DevTools Protocol. Operated by Dalton Solutions, LLC in Burleson, Texas, Tabfleet offers temporary browser sessions with live viewing, API keys, and integration tools for building agent-driven web automation.
 
-**Areas:** Cloud · Browser · AI · Infrastructure · MCP
+**Areas:** Cloud · Browser · AI · Automation · MCP
 
 ## Tabfleet on APIs.io
 
@@ -74,10 +74,10 @@ Everything profiled for Tabfleet is published on APIs.io rather than in this rep
 
 ### APIs (4)
 
-- [Tabfleet Health API](https://apis.io/apis/tabfleet-com/tabfleet-com-health-api/) — The Health API from Tabfleet, for health.
-- [Tabfleet Sessions API](https://apis.io/apis/tabfleet-com/tabfleet-com-sessions-api/) — The Sessions API from Tabfleet, for sessions.
-- [Tabfleet Usage API](https://apis.io/apis/tabfleet-com/tabfleet-com-usage-api/) — The Usage API from Tabfleet, for usage.
-- [Tabfleet Viewer Settings API](https://apis.io/apis/tabfleet-com/tabfleet-com-viewer-settings-api/) — The Viewer Settings API from Tabfleet, for viewer settings.
+- [Tabfleet Health API](https://apis.io/apis/tabfleet-com/tabfleet-com-health-api/) — The Health API from Tabfleet — 1 operation(s) for health.
+- [Tabfleet Sessions API](https://apis.io/apis/tabfleet-com/tabfleet-com-sessions-api/) — The Sessions API from Tabfleet — 5 operation(s) for sessions.
+- [Tabfleet Usage API](https://apis.io/apis/tabfleet-com/tabfleet-com-usage-api/) — The Usage API from Tabfleet — 1 operation(s) for usage.
+- [Tabfleet Viewer Settings API](https://apis.io/apis/tabfleet-com/tabfleet-com-viewer-settings-api/) — The Viewer Settings API from Tabfleet — 1 operation(s) for viewer settings.
 
 ### Published properties
 
@@ -136,26 +136,26 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://tabfleet.com/)
 - [Documentation](https://tabfleet.com/docs)
-- [Getting started](https://tabfleet.com/docs/quickstart)
-- [API reference](https://tabfleet.com/docs/api)
+- [Getting started](https://tabfleet.com/docs/mcp)
+- [API reference](https://tabfleet.com/llms.txt)
 - [Pricing](https://tabfleet.com/pricing)
 - [Terms of service](https://tabfleet.com/terms)
 - [Privacy policy](https://tabfleet.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 60.9** — strong · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 58.9** — strong · rubric 0.28.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 83.9 |
-| Contract quality | 68.8 |
+| Discoverability | 76.8 |
+| Contract quality | 63.8 |
 | Contract governance | 79.1 |
 | Operational transparency | 24.3 |
 | Developer ergonomics | 70.7 |
 | Access clarity | 40.9 |
 
-**Agent readiness 65.8** — agent-native
+**Agent readiness 70.3** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -166,12 +166,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Auth Clarity | served (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
-| OpenAPI Examples | — |
+| OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | signal |
+| Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -181,9 +181,6 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | yes |
-| Markdown Negotiation | yes |
 
 **Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
